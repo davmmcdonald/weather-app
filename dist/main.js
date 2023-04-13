@@ -1,0 +1,1 @@
+window.navigator.geolocation.getCurrentPosition((o=>{console.log(o)}),(o=>{console.log(o)}));
