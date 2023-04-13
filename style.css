@@ -1,0 +1,81 @@
+body {
+    position: relative;
+    background-image: url("assets/fb809fab.jpeg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+header {
+    position: absolute;
+    padding: 32px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+.forecast-section {
+    flex: 3;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+}
+
+.temperature {
+    font-size: 96px;
+}
+
+.forecast-wrapper {
+    margin: 0px 0px 16px 16px;
+}
+
+.icon {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.location {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.details-section {
+    flex: 2;
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(16px);
+}
+
+.search-wrapper {
+    display: flex;
+}
+
+.search-bar {
+    flex: 1;
+    margin-right: 8px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    color: inherit;
+}
+
+.btn {
+    aspect-ratio: 1/1;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
