@@ -19,19 +19,19 @@
     </header>
     <main>
         <section class="forecast-section">
-            <p class="temperature">70°</p>
+            <p class="temperature"><span id="temperature">70</span>°</p>
             <div class="forecast-wrapper">
-                <i class="icon fa-solid fa-cloud-sun"></i>
-                <p class="conditions">Partly Cloudy</p>
+                <i id="icon" class="icon fa-solid fa-cloud-sun"></i>
+                <p id="conditions" class="conditions">Partly Cloudy</p>
             </div>
             <div class="forecast-wrapper">
-                <p class="location"><i class="fa-solid fa-location-arrow"></i> Colorado Springs, CO</p>
-                <p class="date-time">4:00pm April 13, 2023</p>
+                <p class="location"><i class="fa-solid fa-location-arrow"></i> <span id="region">Colorado Springs, CO</span></p>
+                <p id="dateTime" class="date-time">4:00pm April 13, 2023</p>
             </div>
         </section>
         <section class="details-section">
-            <form action="" class="search-wrapper">
-                <input type="text" name="" id="" class="search-bar">
+            <form id="searchForm" action="" class="search-wrapper">
+                <input type="text" name="" id="searchBar" class="search-bar">
                 <button class="btn">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
