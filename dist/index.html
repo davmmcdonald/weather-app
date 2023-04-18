@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>weatherly</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
-    <script src="https://kit.fontawesome.com/4f2a91077e.js" crossorigin="anonymous"></script>    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/4f2a91077e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="logo"><a href="">Hoff & Leigh</a></h1>
+        <h1 class="logo"><a href="">weatherly</a></h1>
     </header>
     <main>
         <section class="forecast-section">
-            <p class="temperature">1257</p>
+            <p class="temperature">70°</p>
             <div class="forecast-wrapper">
-                <i class="icon fa-solid fa-building"></i>
-                <p class="conditions">Real Estate</p>
+                <i class="icon fa-solid fa-cloud-sun"></i>
+                <p class="conditions">Partly Cloudy</p>
             </div>
             <div class="forecast-wrapper">
                 <p class="location"><i class="fa-solid fa-location-arrow"></i> Colorado Springs, CO</p>
@@ -35,6 +36,26 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
+            <p class="error">Location not found!</p>
+            <p class="heading">Weather Details</p>
+            <div class="grid">
+                <p class="item">High / Low:</p>
+                <p class="data">70</p>
+                <p class="item">Precipitation:</p>
+                <p class="data">70</p>
+                <p class="item">Humidity:</p>
+                <p class="data">70</p>
+                <p class="item">Pressure:</p>
+                <p class="data">70</p>
+                <p class="item">Visiblity:</p>
+                <p class="data">70</p>
+                <p class="item">Wind:</p>
+                <p class="data">70</p>
+                <p class="item">Dew Point:</p>
+                <p class="data">70</p>
+                <p class="item">UV Index:</p>
+                <p class="data">70</p>
+            </div>
         </section>
     </main>
 </body>

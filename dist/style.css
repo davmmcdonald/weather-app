@@ -61,6 +61,7 @@ main {
 
 .search-wrapper {
     display: flex;
+    padding-bottom: 16px;
 }
 
 .search-bar {
@@ -77,5 +78,32 @@ main {
     aspect-ratio: 1/1;
     background-color: #FFFFFF;
     border: none;
+    outline: none;
     cursor: pointer;
+}
+
+.error {
+    margin-bottom: 64px;
+    font-style: italic;
+}
+
+.heading {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.item {
+    font-weight: 700;
+}
+
+.data {
+    text-align: right;
 }
